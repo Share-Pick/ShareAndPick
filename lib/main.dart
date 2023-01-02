@@ -9,14 +9,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const CupertinoPageScaffold(
-      backgroundColor: Colors.blue,
+      backgroundColor: Color(0xffFFD0D0),
       navigationBar: CupertinoNavigationBar(
-        backgroundColor: Colors.amber,
-        middle: Text("App Bar"),
-        trailing: Text("Text입니당~!"),
+        backgroundColor: Colors.white,
+        middle: Text("Share&Pick"),
       ),
       child: Center(
-        child: Text("아이폰 앱 기본화면~!"),
+        child: Text("Share&Pick"),
       ),
     );
   }
