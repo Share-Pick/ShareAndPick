@@ -10,13 +10,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const CupertinoPageScaffold(
       backgroundColor: Color(0xffFFD0D0),
-      navigationBar: CupertinoNavigationBar(
-        backgroundColor: Colors.white,
-        middle: Text("Share&Pick"),
-      ),
-      child: Center(
+      // navigationBar: CupertinoNavigationBar(
+      //   backgroundColor: Colors.white,
+      //   middle: Text("Share&Pick"),
+      // ),
+      child: Center (
         child: Text("Share&Pick"),
-      ),
+      )
     );
   }
 }
